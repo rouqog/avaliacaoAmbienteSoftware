@@ -12,12 +12,12 @@ function updateCount(newValue) {
 let state = { count: 0, dark: false };
 
 elIncrement.addEventListener("click", () => {
-  state.count += 2;
+  state.count += 1;
   updateCount(state.count);
 });
 
 elDecrement.addEventListener("click", () => {
-  state.count -= 2;
+  state.count -= 1;
   updateCount(state.count);
 });
 
