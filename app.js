@@ -13,18 +13,30 @@ let state = { count: 0, dark: false };
 
 elIncrement.addEventListener("click", () => {
   state.count += 2;
+<<<<<<< HEAD
   updateCount(state.count);
+=======
+  setCount(state.count);
+>>>>>>> feature/joandre
 });
 
 elDecrement.addEventListener("click", () => {
   state.count -= 2;
+<<<<<<< HEAD
   updateCount(state.count);
+=======
+  setCount(state.count);
+>>>>>>> feature/joandre
 });
 
 elToggleTheme.addEventListener("click", () => {
   state.dark = !state.dark;
   document.documentElement.style.setProperty("--bg", state.dark ? "#0b1220" : "#f8fafc");
   document.documentElement.style.setProperty("--text", state.dark ? "#e2e8f0" : "#0f172a");
+  document.documentElement.style.setProperty("--", state.dark ? "#0b1220" : "#0f172a");
+  document.getElementById("message").style.color = state.dark ? "#020202" : "#0f172a";
+  document.getElementById("count").style.color = state.dark ? "#020202" : "#0f172a";
+  document.getElementById("btn-toggle-theme").style.color = state.dark ? "#020202" : "#0f172a";
   elTitle.textContent = state.dark ? "Mini App – Modo Escuro" : "Mini App – GitFlow";
   elToggleTheme.setAttribute("aria-pressed", String(state.dark));
 });
