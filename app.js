@@ -5,26 +5,13 @@ const elDecrement = document.getElementById("btn-decrement");
 const elToggleTheme = document.getElementById("btn-toggle-theme");
 const elTitle = document.getElementById("title");
 
-<<<<<<< HEAD
-function setCount(newValue) {
-=======
 function updateCount(newValue) {
->>>>>>> feature/heitor
   elCount.textContent = String(newValue);
 }
 
 let state = { count: 0, dark: false };
 
 elIncrement.addEventListener("click", () => {
-<<<<<<< HEAD
-  state.count += 1;
-  setCount(state.count);
-});
-
-elDecrement.addEventListener("click", () => {
-  state.count -= 1;
-  setCount(state.count);
-=======
   state.count += 2;
   updateCount(state.count);
 });
@@ -32,7 +19,6 @@ elDecrement.addEventListener("click", () => {
 elDecrement.addEventListener("click", () => {
   state.count -= 2;
   updateCount(state.count);
->>>>>>> feature/heitor
 });
 
 elToggleTheme.addEventListener("click", () => {
