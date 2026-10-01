@@ -27,9 +27,17 @@ Alternativas consideradas: Alterar a cor
 Decisão final: Manter a cor azul padrão
 Quem resolveu: A, 01/10/2026
 
-Arquivo/Linhas: 
-Causa: 
-Alternativas consideradas: 
-Decisão final:
-Quem resolveu:
+Arquivo/Linhas: app.js, linha 8
+Causa: Conflito de nomes com a função "upgradeCount"
+Alternativas consideradas: Alterar nome
+Decisão final: Manter o nome "setCount"
+Quem resolveu: Aluno A, 01/10/2026
+
+Arquivo/Linhas: app.js
+Causa: Adição do modo escuro
+Alternativas consideradas: Manter alterações
+Decisão final: Manter alterações
+Quem resolveu: Aluno A, 01/10/2026
+
+
 
